@@ -1,8 +1,5 @@
 # 论文与数据集说明
 
-[toc]
- ---
-
 ## 1、论文模型、代码、数据集
 |Algorithms|Projects/Code Link|Paper Link|Data Set|
 |:---:|:---:|:---:|:---:|
@@ -34,6 +31,7 @@
 |DNN/DNA-dataset|syn: 900*14|syn: 100*14|*14表示将一张原始图片合成14张不同的雨图<br>（雨的纹理、大小等不同）|
 |DIN-MDN-dataset|Heavy-syn: 4000<br>Medium-syn: 4000<br>Light-syn: 4000|test1-syn: 1200<br>test2-fu: 1000|1、heavy、medium、light的原始图片相同<br>2、test1-syn为作者合成的测试集，test2-fu为作者<br>从DNN-dataset中随机抽取组成的|
 |ID-CGAN-dataset|syn: 700|syn: 100<br>nature: 52(无label)|-|
+    
 *syn：Synthetic Dataset*
 >*部分论文还使用了Real-World Images，此处并未全部列举。因此类数据缺乏label，无法计算psnr和ssim，在此次实验中并未使用*
 
